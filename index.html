@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Application</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Max<span>.</span></div>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="main.png" alt="Max">
+        </div>
+        <div class="home-content">
+            <h1>Hi, it's <span>Max</span></h1>
+            <h3 class="typing-text">I'm a <b class="occupation">Frontend Developer</b></h3>
+            <p>Crafting clean, performant web experiences with a passion for pixel-perfect interfaces. I turn ideas into elegant, user-friendly products that make an impact.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/maxwell-agyakwa-otsiwa-01643a3b2" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Maxorleans55" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/orleans9405" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/max_orleans?share_id=yeKbQbbH5B4&locale=en-US" aria-label="Snapchat"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <p class="section-label">What I work with</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <h4>HTML5</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="95"></div></div>
+                <span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <h4>CSS3</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="90"></div></div>
+                <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                <h4>JavaScript</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="80"></div></div>
+                <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                <h4>React</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="75"></div></div>
+                <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                <h4>Git</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="85"></div></div>
+                <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+                <h4>Figma</h4>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-level="70"></div></div>
+                <span class="skill-pct">70%</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="section-header">
+            <p class="section-label">My background</p>
+            <h2>Edu<span>cation</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">2022 — Present</span>
+                    <h4>BSc Computer Science</h4>
+                    <p class="timeline-place"><i class="fa-solid fa-location-dot"></i> University of Ghana, Legon</p>
+                    <p class="timeline-desc">Studying core computer science fundamentals including algorithms, data structures, software engineering and web development.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">2021 — 2022</span>
+                    <h4>Frontend Web Development</h4>
+                    <p class="timeline-place"><i class="fa-solid fa-location-dot"></i> Self-directed & Online Courses</p>
+                    <p class="timeline-desc">Completed intensive self-study covering HTML, CSS, JavaScript and modern frameworks. Built 10+ projects from scratch.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">2018 — 2021</span>
+                    <h4>West African Senior School Certificate</h4>
+                    <p class="timeline-place"><i class="fa-solid fa-location-dot"></i> Secondary School, Ghana</p>
+                    <p class="timeline-desc">Completed WASSCE with electives in Mathematics, Physics and ICT. Developed early interest in programming and problem-solving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <p class="section-label">Get in touch</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <p class="contact-label">Email</p>
+                        <a href="MaxwellOtsiwa61@gmail.com">MaxwellOtsiwa61@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <p class="contact-label">Phone</p>
+                        <a href="tel:+233505746530">+233505746530</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <p class="contact-label">Location</p>
+                        <p>Accra-Legon, Ghana</p>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/maxwell-agyakwa-otsiwa-01643a3b2" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Maxorleans55" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/orleans9405" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="femail">Email</label>
+                        <input type="email" id="femail" placeholder="john@example.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="fsubject">Subject</label>
+                    <input type="text" id="fsubject" placeholder="Project inquiry...">
+                </div>
+                <div class="form-group">
+                    <label for="fmessage">Message</label>
+                    <textarea id="fmessage" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message &nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & built by <span>Max</span> &copy; <span id="year"></span></p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const nav = document.getElementById('navbar');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const icon = toggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                const icon = toggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-xmark');
+            });
+        });
+
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar a');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(sec => {
+                if (window.scrollY >= sec.offsetTop - 120) current = sec.getAttribute('id');
+            });
+            navLinks.forEach(a => {
+                a.classList.remove('active');
+                if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+            });
+        });
+
+        const bars = document.querySelectorAll('.skill-bar');
+        const barObserver = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.style.width = e.target.dataset.level + '%';
+                    barObserver.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        bars.forEach(b => barObserver.observe(b));
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            btn.textContent = 'Message Sent!';
+            btn.style.background = 'var(--red)';
+            btn.style.color = 'white';
+            setTimeout(() => {
+                btn.innerHTML = 'Send Message &nbsp;<i class="fa-solid fa-paper-plane"></i>';
+                btn.style.background = '';
+                btn.style.color = '';
+                this.reset();
+            }, 3000);
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
