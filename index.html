@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "t5gYIl4YvglaeB0m9",
+      });
+   })();
+</script>
     <title>Portfolio Application</title>
 </head>
 <body>
@@ -12,11 +22,11 @@
     <header>
         <div class="logo">Max<span>.</span></div>
         <nav class="navbar" id="navbar">
-            <a href="#home" class="active">Home</a>
+            <a href="#home">Home</a>
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
             <i class="fa-solid fa-bars"></i>
@@ -246,5 +256,6 @@
 
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
