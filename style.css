@@ -191,27 +191,39 @@ span { color: var(--red); }
     align-items: center;
     gap: 0.8rem;
 }
-
 .occupation {
     color: var(--red);
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
+    position: relative;
     width: 0;
-    border-right: 3px solid var(--red);
-    animation:
-        typing 2.8s steps(18, end) 0.4s forwards,
-        blink 0.7s step-end infinite;
+    animation: typingLoop 6s steps(16, end) infinite;
 }
 
-@keyframes typing {
-    from { width: 0; }
-    to   { width: 19ch; }
+/* Cursor */
+.occupation::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: var(--red);
+    animation: blink 0.7s step-end infinite;
 }
 
+/* 🔁 Typing + deleting loop */
+@keyframes typingLoop {
+    0%   { width: 0ch; }
+    40%  { width: 16ch; }  /* typing */
+    60%  { width: 16ch; }  /* pause */
+    100% { width: 0ch; }   /* deleting */
+}
+
+/* Cursor blink */
 @keyframes blink {
-    0%, 100% { border-color: var(--red); }
-    50%       { border-color: transparent; }
+    50% { opacity: 0; }
 }
 
 .social-icons {
