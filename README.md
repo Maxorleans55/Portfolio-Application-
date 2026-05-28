@@ -4,12 +4,12 @@
 
 <p align="center">
   <a href="https://maxorleans55.github.io/Portfolio-Application-/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Portfolio-b74b4b?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/%20Live%20Demo-Visit%20Portfolio-b74b4b?style=for-the-badge&logoColor=white" alt="Live Demo"/>
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Made%20with-❤️%20in%20Ghana-gold?style=for-the-badge" alt="Made in Ghana"/>
+  <img src="https://img.shields.io/badge/Made%20with-%20in%20Ghana-gold?style=for-the-badge" alt="Made in Ghana"/>
 </p>
 
 <br/>
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ About This Project
+##  About This Project
 
 > *Crafting clean, performant web experiences with a passion for pixel-perfect interfaces.*
 
@@ -28,22 +28,22 @@ A modern, fully responsive **personal portfolio website** built from scratch usi
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature | Description |
 |--------|-------------|
-| 🎨 **Dark Theme UI** | Elegant dark design with red accent palette |
-| ⌨️ **Typing Animation** | Hero section with animated occupation text |
-| 🌀 **Spinning Glow Ring** | Conic-gradient animated ring around profile image |
-| 📊 **Skill Progress Bars** | Scroll-triggered animated skill bars |
-| 🗓️ **Education Timeline** | Clean vertical timeline with hover effects |
-| 📬 **Working Contact Form** | EmailJS integration for real email delivery |
-| 📱 **Fully Responsive** | Mobile-first design with slide-in nav drawer |
-| 🔗 **Smooth Scrolling** | Active nav link highlighting on scroll |
+| **Dark Theme UI** | Elegant dark design with red accent palette |
+|  **Typing Animation** | Hero section with animated occupation text |
+| **Spinning Glow Ring** | Conic-gradient animated ring around profile image |
+| **Skill Progress Bars** | Scroll-triggered animated skill bars |
+| **Education Timeline** | Clean vertical timeline with hover effects |
+| **Working Contact Form** | EmailJS integration for real email delivery |
+|  **Fully Responsive** | Mobile-first design with slide-in nav drawer |
+|  **Smooth Scrolling** | Active nav link highlighting on scroll |
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -56,20 +56,20 @@ A modern, fully responsive **personal portfolio website** built from scratch usi
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Portfolio-Application-/
-├── 📄 index.html       # Main HTML structure
-├── 🎨 style.css        # All styles, animations & responsive rules
-├── ⚙️  script.js        # EmailJS contact form logic
-├── 🖼️  main.png         # Profile photo
-└── 📘 README.md        # Project documentation
+├──  index.html       # Main HTML structure
+├── style.css        # All styles, animations & responsive rules
+├── script.js        # EmailJS contact form logic
+├── main.png         # Profile photo
+└── README.md        # Project documentation
 ```
 
 ---
 
-## 🧑‍💻 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -84,7 +84,7 @@ open index.html
 
 ---
 
-## 📸 Preview
+## Preview
 
 <p align="center">
   <img src="main.png" alt="Portfolio Preview" width="600" style="border-radius: 12px;"/>
@@ -92,9 +92,9 @@ open index.html
 
 ---
 
-## 🤝 Collaborators
+##  Collaborators
 
-A huge thank you to my collaborator who made this project even better! 🙌
+A huge thank you to my collaborator who made this project even better! 
 
 <table>
   <tr>
@@ -103,23 +103,23 @@ A huge thank you to my collaborator who made this project even better! 🙌
         <img src="https://github.com/Maxorleans55.png" width="100px;" style="border-radius:50%"/><br/>
         <sub><b>Maxwell Agyakwa-Otsiwa</b></sub>
       </a><br/>
-      <sub>👑 Project Author & Lead Developer</sub>
+      <sub> Project Author & Lead Developer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Essential232">
         <img src="https://github.com/Essential232.png" width="100px;" style="border-radius:50%"/><br/>
         <sub><b>Solomon</b></sub>
       </a><br/>
-      <sub>🛠️ Code & Development Collaborator</sub>
+      <sub> Code & Development Collaborator</sub>
     </td>
   </tr>
 </table>
 
-> 💬 *"Big shoutout to **Solomon** ([@Essential232](https://github.com/Essential232)) for his invaluable contributions to the code and development of this project. Your support and collaboration made a real difference — thank you! 🔥"*
+> *"Big shoutout to **Solomon** ([@Essential232](https://github.com/Essential232)) for his invaluable contributions to the code and development of this project. Your support and collaboration made a real difference — thank you! "*
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Maxwell Agyakwa-Otsiwa**
 
@@ -145,5 +145,5 @@ A huge thank you to my collaborator who made this project even better! 🙌
 </p>
 
 <p align="center">
-  <sub>Designed & built with ❤️ by <b>Max</b> © 2025</sub>
+  <sub>Designed & built with  by <b>Max</b> © 2025</sub>
 </p>
