@@ -200,32 +200,22 @@ span { color: var(--red); }
 }
 .occupation {
     color: var(--red);
-    overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    width: 0;
-    animation: typingLoop 6s steps(16, end) infinite;
+    padding-right: 4px;
 }
 
 /* Cursor */
 .occupation::after {
     content: '';
     position: absolute;
-    right: 0;
+    right: -4px;
     top: 0;
     height: 100%;
     width: 3px;
     background: var(--red);
     animation: blink 0.7s step-end infinite;
-}
-
-/* 🔁 Typing + deleting loop */
-@keyframes typingLoop {
-    0%   { width: 0ch; }
-    40%  { width: 16ch; }  /* typing */
-    60%  { width: 16ch; }  /* pause */
-    100% { width: 0ch; }   /* deleting */
 }
 
 /* Cursor blink */
