@@ -101,7 +101,7 @@ section {
     gap: 8rem;
     background-color: var(--bg);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .home::before {
@@ -145,8 +145,8 @@ section {
 .home-img img {
     position: relative;
     z-index: 2;
-    width: 30vw;
-    max-width: 340px;
+    width: 25vw;
+    max-width: 300px;
     min-width: 200px;
     border-radius: 50%;
     display: block;
@@ -658,13 +658,22 @@ footer span { color: var(--red); }
     .home {
         flex-direction: column;
         text-align: center;
-        padding: 10rem 6% 5rem;
-        gap: 4rem;
+        padding: 10rem 5% 5rem;
+        gap: 3rem;
+        overflow: visible;
+    }
+
+    .home-img {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .home-img img {
-        width: 60vw;
-        max-width: 260px;
+        width: 55vw;
+        max-width: 280px;
+        min-width: 150px;
     }
 
     .typing-text { justify-content: center; }
@@ -690,6 +699,13 @@ footer span { color: var(--red); }
 @media (max-width: 480px) {
     header { padding: 1.4rem 2rem; }
     .home-content h1 { font-size: 3.8rem; }
-    .home-img img { width: 70vw; }
+    .home {
+        padding: 10rem 4% 5rem;
+    }
+    .home-img img { 
+        width: 65vw;
+        max-width: 240px;
+        min-width: 140px;
+    }
     .btn { padding: 1rem 2.4rem; font-size: 1.4rem; }
 }
