@@ -195,8 +195,15 @@ span { color: var(--red); }
     font-weight: 600;
     margin-bottom: 1.6rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    row-gap: 0.4rem;
     gap: 0.8rem;
+    min-height: 1.3em;
+}
+.im-a {
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 .occupation {
     color: var(--red);
@@ -204,6 +211,9 @@ span { color: var(--red); }
     display: inline-block;
     position: relative;
     padding-right: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: clip;
 }
 
 /* Cursor */
@@ -770,7 +780,7 @@ footer span { color: var(--red); }
         height: 100%;
     }
 
-    .typing-text { justify-content: center; }
+    .typing-text { justify-content: center; font-size: clamp(1.5rem, 5.5vw, 2.4rem); }
     .home-content p { margin: 0 auto 1rem; }
     .social-icons { justify-content: center; }
 
